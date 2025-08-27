@@ -2,10 +2,10 @@ name: Deploy
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: [Build]
-    types:
-      - completed
+  # workflow_run:
+  #   workflows: [Build]
+  #   types:
+  #     - completed
 
 env:
   AWS_REGION: ${{ secrets.AWS_REGION }}
