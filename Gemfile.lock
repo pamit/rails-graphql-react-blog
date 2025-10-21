@@ -74,13 +74,13 @@ GEM
       tzinfo (~> 2.0, >= 2.0.5)
     annotations (0.1.2)
       rake
-    apollo-federation (3.10.1)
+    apollo-federation (3.10.3)
       google-protobuf (< 5)
       graphql
     ast (2.4.3)
-    base64 (0.2.0)
+    base64 (0.3.0)
     benchmark (0.4.0)
-    bigdecimal (3.1.9)
+    bigdecimal (3.3.1)
     bootsnap (1.18.6)
       msgpack (~> 1.2)
     brakeman (7.1.0)
@@ -97,25 +97,25 @@ GEM
     erubi (1.13.1)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    google-protobuf (4.31.0)
+    google-protobuf (4.33.0)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.0-aarch64-linux-gnu)
+    google-protobuf (4.33.0-aarch64-linux-gnu)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.0-aarch64-linux-musl)
+    google-protobuf (4.33.0-aarch64-linux-musl)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.0-arm64-darwin)
+    google-protobuf (4.33.0-arm64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.0-x86_64-darwin)
+    google-protobuf (4.33.0-x86_64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.0-x86_64-linux-gnu)
+    google-protobuf (4.33.0-x86_64-linux-gnu)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.0-x86_64-linux-musl)
+    google-protobuf (4.33.0-x86_64-linux-musl)
       bigdecimal
       rake (>= 13)
     graphiql-rails (1.10.5)
@@ -226,7 +226,7 @@ GEM
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
-    rake (13.2.1)
+    rake (13.3.0)
     rdoc (6.13.1)
       psych (>= 4.0.0)
     regexp_parser (2.10.0)
