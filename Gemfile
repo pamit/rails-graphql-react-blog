@@ -40,7 +40,7 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-gem "graphql", "= 2.3.7"
+gem "graphql", "2.5.17"
 gem "apollo-federation"
 
 group :development do
