@@ -83,7 +83,7 @@ GEM
     bigdecimal (3.1.9)
     bootsnap (1.18.6)
       msgpack (~> 1.2)
-    brakeman (7.1.0)
+    brakeman (8.0.1)
       racc
     builder (3.3.0)
     concurrent-ruby (1.3.5)
@@ -301,7 +301,7 @@ DEPENDENCIES
   annotations
   apollo-federation
   bootsnap
-  brakeman (~> 7.1)
+  brakeman (~> 8.0)
   debug
   graphiql-rails
   graphql (= 2.3.7)
