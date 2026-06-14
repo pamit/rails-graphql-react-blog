@@ -9,7 +9,7 @@ const supergraphSdl = new IntrospectAndCompose({
   // real usage-based metrics.
   subgraphs: [
     { name: "posts", url: "http://localhost:3000/graphql" },
-    // { name: "users", url: "http://localhost:3001/graphql" },
+    { name: "users", url: "http://localhost:3001/graphql" },
   ],
 });
 
@@ -31,6 +31,8 @@ const gateway = new ApolloGateway({
     // Subscriptions are unsupported but planned for a future Gateway version.
     subscriptions: false,
   });
+
+  console.log("Redundant logging - not needed");
 
   server.listen({ port: 4000 }).then(({ url }) => {
     console.log(`🚀 Server ready at ${url}`);

@@ -14,7 +14,6 @@
 #   }
 # }
 
-
 module Mutations
   class CreatePost < BaseMutation
     argument :title, String, required: true, validates: { allow_blank: false }
@@ -30,7 +29,8 @@ module Mutations
       else
         { post: nil, errors: post.errors.full_messages }
       end
-      # rescue ActiveRecord::RecordInvalid => e
+    rescue ActiveRecord::RecordInvalid => e
+      Rails.logger.error("RecordInvalid: #{e.record.class}: #{e.record.errors.full_messages.join(", ")}")
       #   # GraphQL::ExecutionError.new("Invalid input: #{e.record.class}: #{e.record.errors.full_messages.join(", ")}")
       #   { post: nil, errors: e.errors.full_messages }
     end
