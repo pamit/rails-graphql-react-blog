@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+ruby "3.3.5"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.1.2"
 # Use sqlite3 as the database for Active Record
